@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favourites</title>
+    <!-- Add Bootstrap CSS link or any other styling -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%2210 0 100 100%22><text y=%22.90em%22 font-size=%2290%22>🎬</text></svg>">
+    <!-- Add a link to your separate favorites.js file -->
+    <script src="favorites.js" defer></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand">
+        <div class="container">
+            <a class="navbar-brand" href="#">📽💿🏢🎥🍿❄️Mini IMDB❄️🍿🎥🏢💿📽</a>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="favourites.html">⭐Favourites✨</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <h1 class="mb-4">List of Your Favourite Movies</h1>
+        <div class="row" id="favouritesList">
+            <!-- The dynamically generated favourites list will be displayed here -->
+        </div>
+    </div>
+</body>
+</html>

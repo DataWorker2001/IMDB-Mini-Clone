@@ -1,0 +1,202 @@
+body {
+    background-image: url('bg1.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: yellow;
+}
+
+header {
+    background-color: rgb(114, 19, 12);
+    padding: 16px;
+    text-align: end;
+    color: goldenrod;
+    font-weight: bolder;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: burlywood;
+    box-shadow: inset;
+    padding: 5px;
+    margin: 5px;
+    display: inline-block;
+}
+
+.quote-container {
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+    background-color: pink;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#quoteText {
+    font-size: 20px;
+    font-weight: bold;
+    color: #6d0d4d;
+    margin: 10px;
+}
+
+.search-container {
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+    background-color: #ffaaaa;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#searchInput {
+    padding: 10px;
+    margin-right: 10px;
+    font-weight: bolder;
+    border: 4px violet solid;
+    color: green;
+}
+
+#searchButton {
+    padding: 10px 20px;
+    background-color: #6200ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+main {
+    padding: 30px;
+}
+
+.movies-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Automatically fit movies in columns */
+    gap: 32px;
+    padding: 5px;
+    margin: 5px;
+    justify-items: center; /* Center items horizontally */
+}
+
+.movie-card {
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: center;
+    color: yellow;
+    background-color: rgb(209, 77, 99);
+}
+
+.movie-card img {
+    max-width: 100%;
+    max-height: 150px; /* Adjust height for better visibility */
+    object-fit: contain; /* Crop image to fit within the card */
+}
+
+button {
+    margin-top: 8px;
+    padding: 8px 16px;
+    background-color: #43c44c;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6200ff;
+    color: whitesmoke;
+}
+
+nav {
+    background-color: #ffaaaa;
+}
+
+.container {
+    background-color: rgb(251, 162, 162);
+    color: brown;
+    font-weight: bold;
+}
+
+.navbar {
+    background-color: #ffaaaa;
+    font-size: larger;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    color: #54184b;
+}
+
+.navbar-nav .nav-link {
+    color: yellow;
+    font-size: 20px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: powderblue;
+}
+
+/* Highlight active nav link */
+/* .navbar-nav .nav-item.active .nav-link {
+    background-color: #007bff;
+    border-radius: 5px;
+}
+
+.navbar-nav .nav-item.active .nav-link:hover {
+    background-color: #0056b3;
+    border-radius: 5px;
+} */
+
+/* Search results styles */
+#searchResults .card {
+    width: 100%;
+    max-width: 200px;
+    min-height: 280px; /* Adjust height for better visibility */
+    margin: 5px;
+    color: #034407;
+    font-weight: bolder;
+    background-color: #f7c784;
+    object-fit: cover;
+}
+
+#favouritesList .card {
+    background-color: #fff3cd;
+    width: 100%;
+    max-width: 200px;
+    min-height: 280px; /* Adjust height for better visibility */
+    margin: 10px;
+    border: 1px solid #f0ad4e;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#favouritesList .card-img-top {
+    height: 150px; /* Adjust height for better visibility */
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+}
+
+#favouritesList .card-body {
+    padding: 10px;
+}
+
+#favouritesList .card-title {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#favouritesList .more-button {
+    margin-top: 10px;
+}
