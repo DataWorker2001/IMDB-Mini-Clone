@@ -77,3 +77,40 @@ const previousSearchResults = JSON.parse(localStorage.getItem('searchResults'));
 if (previousSearchResults && previousSearchResults.length > 0) {
     displaySearchResults(previousSearchResults);
 }
+
+const quoteText = document.getElementById('quoteText');
+const quoteSpeed = 200; // Time (in milliseconds) for each word to appear
+const movieQuotations = [
+    "The greatest trick the devil ever pulled was convincing the world he didn't exist. - The Usual Suspects",
+    "May the Force be with you. - Star Wars",
+    "Here's looking at you, kid. - Casablanca",
+    "I'll be back. - The Terminator",
+    "Why so serious? - The Dark Knight",
+    "You can't handle the truth! - A Few Good Men",
+    "There's no place like home. - The Wizard of Oz",
+];
+let currentQuoteIndex = 0;
+
+// Function to display the quotation word by word
+async function displayQuoteWordByWord() {
+    const quote = movieQuotations[currentQuoteIndex];
+    const words = quote.split(' ');
+
+    for (let i = 0; i < words.length; i++) {
+        await new Promise(resolve => setTimeout(resolve, quoteSpeed));
+        quoteText.textContent = words.slice(0, i + 1).join(' ');
+    }
+
+    // After displaying all words, wait for 10 seconds and then show the next quote
+    await new Promise(resolve => setTimeout(resolve, 800));
+    showNextQuote();
+}
+
+// Function to show the next quotation
+function showNextQuote() {
+    currentQuoteIndex = (currentQuoteIndex + 1) % movieQuotations.length;
+    displayQuoteWordByWord();
+}
+
+// Display the first quotation on page load
+displayQuoteWordByWord();
