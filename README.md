@@ -1,6 +1,8 @@
 # IMDB-Mini-Clone
-##  Smaller clone of the IMDB built using OMDB-API.
+##  Smaller clone of the IMDB built using OMDB-API built purely using HTML, CSS and Vanilla JS in seperate html, css and js code files.
+### Contributed by: Mr. Arpan Choudhury.
 ![image](https://github.com/DataWorker2001/IMDB-Mini-Clone/assets/123379937/f6aa64c6-6c42-4e98-ae65-da31c04acf6a)
+
 
 ## Features of this webapp:-
 1) Home Page: On this page, Users can search for any movie using the OMDB API.
