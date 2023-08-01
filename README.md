@@ -7,18 +7,18 @@
 ## Folder Structure:-<br/>
 
 Imdb-Mini-Clone/<br/>
-- public/                # Public directory containing static assets<br/>
-  - bg1.jpg              # Background image<br/>
-  - favorites.js         # JavaScript file for handling favorites functionality<br/>
-  - favourites.html      # HTML file for displaying user's favorite movies<br/>
-  - index.html           # Main HTML file for the app's homepage<br/>
-  - movie.html           # HTML file for displaying movie details<br/>
-  - movie.js             # JavaScript file for fetching and displaying movie details<br/>
-  - script.js            # Main JavaScript file for the app<br/>
-  - styles.css           # CSS file for styling the app<br/>
-- .gitattributes         # Git attributes file (for Git version control)<br/>
-- LICENSE                # License file for the app's code<br/>
-- README.md              # Project documentation and information<br/>
+├── public/                # Public directory containing static assets<br/>
+│   ├── bg1.jpg            # Background image<br/>
+│   ├── favorites.js       # JavaScript file for handling favorites functionality<br/>
+│   ├── favourites.html    # HTML file for displaying user's favorite movies<br/>
+│   ├── index.html         # Main HTML file for the app's homepage<br/>
+│   ├── movie.html         # HTML file for displaying movie details<br/>
+│   ├── movie.js           # JavaScript file for fetching and displaying movie details<br/>
+│   ├── script.js          # Main JavaScript file for the app<br/>
+│   └── styles.css         # CSS file for styling the app<br/>
+├── .gitattributes         # Git attributes file (for Git version control)<br/>
+├── LICENSE                # License file for the app's code<br/>
+└── README.md              # Project documentation and information<br/>
 
 ## Features of this webapp:-
 1) Home Page: On this page, Users can search for any movie using the OMDB API.
