@@ -6,7 +6,8 @@
 
 ## Folder Structure:-<br/>
 
-Imdb-Mini-Clone/<br/>
+Imdb-Mini-Clone/ <br/>
+
 |-- public/                # Public directory containing static assets<br/>
 |   |-- bg1.jpg            # Background image<br/>
 |   |-- favorites.js       # JavaScript file for handling favorites functionality<br/>
