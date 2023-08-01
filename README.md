@@ -4,8 +4,9 @@
 ![image](https://github.com/DataWorker2001/IMDB-Mini-Clone/assets/123379937/f6aa64c6-6c42-4e98-ae65-da31c04acf6a)
 
 
-## Folder Structure:-
-Imdb-Mini-Clone/
+## Folder Structure:-<br/>
+
+Imdb-Mini-Clone/<br/>
 |-- public/                # Public directory containing static assets<br/>
 |   |-- bg1.jpg            # Background image<br/>
 |   |-- favorites.js       # JavaScript file for handling favorites functionality<br/>
