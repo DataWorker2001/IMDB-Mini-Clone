@@ -4,6 +4,21 @@
 ![image](https://github.com/DataWorker2001/IMDB-Mini-Clone/assets/123379937/f6aa64c6-6c42-4e98-ae65-da31c04acf6a)
 
 
+## Folder Structure:-
+Imdb-Mini-Clone/
+|-- public/                # Public directory containing static assets
+|   |-- bg1.jpg            # Background image
+|   |-- favorites.js       # JavaScript file for handling favorites functionality
+|   |-- favourites.html    # HTML file for displaying user's favorite movies
+|   |-- index.html         # Main HTML file for the app's homepage
+|   |-- movie.html         # HTML file for displaying movie details
+|   |-- movie.js           # JavaScript file for fetching and displaying movie details
+|   |-- script.js          # Main JavaScript file for the app
+|   |-- styles.css         # CSS file for styling the app
+|-- .gitattributes         # Git attributes file (for Git version control)
+|-- LICENSE                # Github License file for the app's code
+|-- README.md              # Project documentation and information
+
 ## Features of this webapp:-
 1) Home Page: On this page, Users can search for any movie using the OMDB API.
 As the user types in the search box, real-time search suggestions are displayed, similar to Google.
